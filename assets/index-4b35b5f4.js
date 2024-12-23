@@ -4619,7 +4619,7 @@ function uc() {
       Zs == 3 && ee.setStatus('Scripts downloaded!')
     }
     document.body.appendChild(n)
-    n.src = `${io.location}/${t}.js`
+    n.src = `/${t}.js`
   }
   e('server')
   e('client')
