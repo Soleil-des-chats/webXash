@@ -4608,7 +4608,7 @@ function cc() {
 }
 function fc(e) {
   var t = document.createElement('script')
-  t.src = `/xash.js`
+  t.src = `xash.js`
   document.body.appendChild(t)
 }
 function uc() {
@@ -4645,7 +4645,7 @@ function ac(e) {
   e.setStatus && (ee.setStatus = e.setStatus)
   ee.setStatus('Downloading...')
   ee.memoryInitializerPrefixURL = e.location + '/'
-  fc(e.location)
+  fc()
 }
 function dc(e) {
   console.log('Starting with params: ' + JSON.stringify(e))
